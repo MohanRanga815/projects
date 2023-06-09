@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  height: 50vh;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 500px;
+    height: 60vh;
+    text-align: center;
+    align-self: center;
+  }
+}
+.card-heading {
+  color: #a35200;
+  font-size: 30px;
+  font-weight: 600;
+}
+.card-para {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 500;
+}
+.heads-image {
+  width: 130px;
+  height: 120px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.button {
+  background-color: #f9d423;
+  padding: 6px;
+  color: #a35200;
+  border-radius: 10px;
+  border: none;
+}
+.toss-results {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+.para {
+  margin-left: 70px;
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+}
